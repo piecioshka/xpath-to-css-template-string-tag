@@ -1,0 +1,49 @@
+{
+    "name": "xpath-to-css-template-string-tag",
+    "description": "Convert XPath to Selector as Tagged template literal",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {
+        "clear": "echo \"Error: no directory specified\" && exit 0",
+        "clear:all": "rm -rf node_modules/ && npm run clear",
+        "test": "npm run test:unit",
+        "test:unit": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
+        "coverage": "nyc npm run test",
+        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r",
+        "lint": "eslint ./"
+    },
+    "dependencies": {
+        "xpath-to-css": "^1.0.2"
+    },
+    "devDependencies": {
+        "eslint": "^5.1.0",
+        "eslint-config-piecioshka": "^2.0.0",
+        "istanbul": "^0.4.5",
+        "jasmine": "^2.9.0",
+        "nyc": "^12.0.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:piecioshka/xpath-to-css-template-string-tag.git"
+    },
+    "files": [
+        "src",
+        "package.json",
+        "README.md"
+    ],
+    "keywords": [
+        "xpath",
+        "css",
+        "selector",
+        "convert",
+        "tagged",
+        "template",
+        "literal"
+    ],
+    "main": "./src/index.js"
+}
