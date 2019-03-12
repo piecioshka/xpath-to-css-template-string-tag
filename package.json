@@ -1,7 +1,7 @@
 {
     "name": "xpath-to-css-template-string-tag",
     "description": "Convert XPath to Selector as Tagged template literal",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",
