@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/xpath-to-css-template-string-tag.svg)](https://badge.fury.io/js/xpath-to-css-template-string-tag)
 [![downloads count](https://img.shields.io/npm/dt/xpath-to-css-template-string-tag.svg)](https://www.npmjs.com/~piecioshka)
-[![travis](https://img.shields.io/travis/piecioshka/xpath-to-css-template-string-tag.svg?maxAge=2592000)](https://travis-ci.org/piecioshka/xpath-to-css-template-string-tag)
+[![travis-ci](https://api.travis-ci.com/piecioshka/xpath-to-css-template-string-tag.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/xpath-to-css-template-string-tag)
 
 🔨 Convert XPath to Selector as [Tagged template literal](http://exploringjs.com/es6/ch_template-literals.html#_tagged-template-literals)
 
