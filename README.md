@@ -5,7 +5,7 @@
 [![downloads count](https://img.shields.io/npm/dt/xpath-to-css-template-string-tag.svg)](https://www.npmjs.com/package/xpath-to-css-template-string-tag)
 [![license](https://img.shields.io/npm/l/xpath-to-css-template-string-tag.svg)](https://www.npmjs.com/package/xpath-to-css-template-string-tag)
 
-🔨 Convert XPath to Selector as [Tagged template literal](http://exploringjs.com/es6/ch_template-literals.html#_tagged-template-literals)
+🔨 Convert XPath to Selector as [Tagged template literal](https://exploringjs.com/es6/ch_template-literals.html#_tagged-template-literals)
 
 ## Installation
 
@@ -34,4 +34,4 @@ npm run coverage
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2018
+[The MIT License](https://piecioshka.mit-license.org) @ 2018
