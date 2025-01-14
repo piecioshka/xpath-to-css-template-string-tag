@@ -9,29 +9,17 @@
 
 🔨 Convert XPath to Selector as [Tagged template literal](https://exploringjs.com/es6/ch_template-literals.html#_tagged-template-literals)
 
-## Installation
+## Usage
+
+Installation:
 
 ```bash
 npm install xpath-to-css-template-string-tag
 ```
 
-## Usage
-
 ```js
 const { x } = require('xpath-to-css-template-string-tag');
 x`//div[@id="foo"]` // 'div#foo'
-```
-
-## Unit tests
-
-```bash
-npm test
-```
-
-## Code coverage
-
-```bash
-npm run coverage
 ```
 
 ## License
